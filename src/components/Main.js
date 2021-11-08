@@ -5,7 +5,8 @@ const Main = () => {
   return (
     <Container>
       <h1>
-        Join The <br />
+        Join <br /> 
+        The <br />
         Team
       </h1>
     </Container>
@@ -19,7 +20,7 @@ const Container = styled.div`
   justify-content: center;
   align-items: center;
   h1 {
-    font-size: 70px;
+    font-size: 85px;
     font-weight: 900;
     @media (max-width: 900px) {
         display:none;
