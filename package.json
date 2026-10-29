@@ -18,7 +18,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -41,6 +41,10 @@
     ]
   },
   "devDependencies": {
+    "cross-env": "^10.1.0",
     "git-commit-msg-linter": "^4.0.7"
+  },
+  "resolutions": {
+    "caniuse-lite": "^1.0.30001810"
   }
 }
