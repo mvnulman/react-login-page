@@ -7,7 +7,7 @@
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^14.6.8",
     "json-schema": "^0.4.0",
-    "node-forge": "^1.4.2",
+    "node-forge": "^1.4.3",
     "nth-check": "^3.0.1",
     "postcss": "^8.5.31",
     "react": "^19.3.1",
